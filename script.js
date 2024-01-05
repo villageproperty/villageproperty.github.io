@@ -5,6 +5,7 @@ const properties = [
     ["Wooden Farmhut","Harrison","Unfurnished, small wooden farmhut overlooking the village. Decorative wheat farm and sheltered horse parking included alongside cosy interior space.","4"],
     ["Middle Eastern Shelter","Harrison","Two-floor, unfurnished sandstone build with Middle Eastern inspired architecture and design.","3.5"],
     ["Oak Log Home", "Harrison", "Two-floor, unfurnished large wooden home with wooden beam exterior and spacious staircased balcony with upper floor entrance. Built in the centre of the Village, on historical previous clinic site, with horse parking nextdoor.","5"],
+    ["Lumberjack Tower","Tom","Furnished, multi-storey tower build, with very detailed design and decorative wooden crane. Large bottom floor with cubicle rooms up to the loft, full of storage space. Small bedroom off the side of the tower also, and trapdoor on the roof for access to the Village's best views.","6"],
 ]
 
 for (property of properties) {
