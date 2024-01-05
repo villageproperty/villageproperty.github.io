@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Minecraft';
+    font-style: normal;
+    font-weight: normal;
+    src: url('font/minecraft.woff') format('woff');
+}
+
+:root {
+    --grey: #c6c6c6;
+}
+
+* {
+    font-family: Minecraft;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.property-container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: fit-content;
+    gap: 10px;
+    background-color: var(--grey);
+    box-shadow: 0 0 20px black;
+}
+
+.property-image {
+    object-fit: cover;
+    width: 50%;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-detail {
+    height: 20%;
+    display: flex;
+}
+
+.big-detail {
+    height: fit-content;
+}
+
+.emerald {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .property-container {
+        flex-direction: column;
+    }
+    .property-image {
+        width: 100%;
+    }
+}
